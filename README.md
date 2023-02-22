@@ -14,4 +14,5 @@ docker-compose up
 코드 실행하면 자동적으로 장고 컨테이너 및 mysql 컨테이너 설치됨
 
 장고컨테이너 이름 : project_django
+
 mysql컨테이너 이름 : project_db
