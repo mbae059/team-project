@@ -9,9 +9,9 @@ django 폴더 다운 (dockerfile, requirements.txt 포함)
 그 디렉토리 내에 db가 깔리게 되니 원하는 곳에 할 것!
 
 ```
-docker-compose -d up
+docker-compose up
 ```
 코드 실행하면 자동적으로 장고 컨테이너 및 mysql 컨테이너 설치됨
 
-장고컨테이너 이름 : project_django\n
+장고컨테이너 이름 : project_django
 mysql컨테이너 이름 : project_db
