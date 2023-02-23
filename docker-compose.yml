@@ -3,7 +3,7 @@ version: "3.8"
 services:
   mysql:
     image: mysql
-    container_name: project_db
+    container_name: group_db
     volumes:
       - ./project_db:/var/lib/mysql
     restart: always
@@ -15,7 +15,7 @@ services:
       - "3306:3306"
 
   django:
-    container_name: project_backend
+    container_name: group_backend
     depends_on:
       - mysql
     build:
