@@ -8,9 +8,6 @@ RUN pip install --upgrade pip
 COPY django/requirements.txt .
 RUN pip install -r ./requirements.txt
 
-# Create a Django project
-RUN django-admin startproject backend .
-
 # Expose port 8000 for the Django development server
 EXPOSE 8000
 
