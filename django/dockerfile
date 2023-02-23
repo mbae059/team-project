@@ -1,13 +1,6 @@
 # Use an official Python runtime as the base image
 FROM mbae059/group_backend:v2
 
-WORKDIR /root
-
-# Install the required packages
-RUN pip install --upgrade pip
-COPY django/requirements.txt .
-RUN pip install -r ./requirements.txt
-
 # Expose port 8000 for the Django development server
 EXPOSE 8000
 
